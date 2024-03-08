@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml" xmlns:sec="http://www.w3.org/1999/xhtml">
+<head>
+    <style>body {
+font-family: Arial, sans-serif;
+background-color: #f4f4f4;
+margin: 0;
+padding: 0;
+display:grid;
+justify-content: center;
+align-items: center;
+height: 100vh;
+}
+.page{
+background-color: #fff;
+padding: 20px;
+border-radius: 8px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+    </style>
+    <meta charset="UTF-8">
+    <title>Hello Page</title>
+</head>
+<body>
+
+<div class="page">
+<h2>Hello Page</h2>
+<hr>
+    <div>
+    <h3>welcome page</h3>
+    <a th:href="home">Home</a>
+    <a th:href="signup">Signup</a>
+    <a th:href="login">Login</a>
+    </div>
+</div>
+</body>
+</html>
